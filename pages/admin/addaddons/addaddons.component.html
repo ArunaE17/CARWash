@@ -1,0 +1,32 @@
+<!-- {{message}} -->
+<form [formGroup]="AddonForm" >
+  <h1>Add a new WashPack</h1>
+
+  <div class="row">
+
+    <label for="name"><span> Id</span> 
+    <input type="text" formControlName="id" [(ngModel)]="addonDetails._id">
+      </label>
+  </div>
+
+  <div class="row">
+
+    <label for="name"><span> Add On Name</span> 
+    <input type="text" formControlName="name" [(ngModel)]="addonDetails.name">
+      </label>
+    </div>
+
+  <div class="row">
+    <label for="name"><span> Enter Cost </span>
+      <input type="text" formControlName="cost" [(ngModel)]="addonDetails.cost">
+      </label>
+  </div>
+  <div class="row">
+    <label for="name"><span> description </span>
+      <input type="text" formControlName="description" [(ngModel)]="addonDetails.description">
+      </label>
+  </div>
+
+ 
+  <button type="submit" (click)="postWp()" >Register</button>
+</form>

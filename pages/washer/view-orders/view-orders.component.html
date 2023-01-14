@@ -1,0 +1,26 @@
+
+<div class="container mt-5 mb-5">
+    <h1 class="text-center">Orders</h1>
+    <div class="row">
+        <div class="col-lg-3  mt-3" *ngFor="let vo of ViewOrder let i = index" >
+            <div class="wasPack mt-3 mb-3">
+                <p><b>E-mailId:</b>{{vo.userEmailId}}<p>
+                <p><b>Phone No.:</b>{{vo.phoneNo}}</p>
+                <p><b>WashPack:</b>{{vo.washpack}}</p>
+                <p><b>Address:</b>{{vo.areapincode}}</p>
+                <p><b>Car details</b></p>
+                <p><b>Name:</b>{{vo.cars.name}}</p>
+                <p><b>Model:</b>{{vo.cars.model}}</p>
+                <p><b>Nameplate:</b>{{vo.cars.nameplate}}</p>
+                <p><b>WasherName:</b>{{vo.washerName}}</p>
+                <p><b>Status:</b>{{vo.status}}</p>
+                <br/>
+                <button type="button" class="btn btn-success" >ACCEPT</button>
+                <button type="button" class="btn btn-danger" (click)="hide(i)">REJECT</button>
+        
+            </div>
+        </div>
+    </div>
+
+</div> 
+

@@ -1,0 +1,22 @@
+
+<div class="banner">
+    <div class="content ">
+    <h1 class="mt-4">CAR WASH AT YOUR  DOOR STEP</h1>
+</div>
+</div>
+
+<!-- washpack -->
+<div class="container mt-5 mb-5">
+    <h1 class="text-center"><span class="highlight">Top Rating WashPacks</span></h1>
+    <div class="row">
+        <div class="col-lg-3"  mt-3 *ngFor="let wp of washPack;index as i">
+            <div class="wasPack" *ngIf="i<=3">
+                <img src="{{wp.CarImg}}"/>
+                <h1>{{wp. name}}</h1>
+                <p>{{wp.cost | currency:'INR'}}</p>
+            </div>
+        </div>
+    </div>
+<a routerLink="login" class="viewmore">VIEW MORE</a>
+</div>
+

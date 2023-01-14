@@ -1,0 +1,47 @@
+<div class="row no-gutters">
+    
+    <div class="col no-gutters">
+        <div class="leftside">
+            <img src="../assets/5741941.jpg"  class="img-fluid" alt="Phone image">
+        </div>
+
+    </div>
+
+    <div class="col no-gutters">
+        <div class="rightside">
+            <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
+            <div class="text-center">
+                <h1 class="text-center mt-5"><b>GREEN CAR WASH <br/>LOGIN</b></h1>
+            <form [formGroup]="LoginForm"  class="d-flex-center">
+              <div class="example-container">
+                
+                <div>
+                    <mat-form-field>
+                    <input matInput type="email" placeholder="Usermail" formControlName="usermail" [(ngModel)]="usermail">
+                    <mat-error *ngIf="!LoginForm.get('usermail')?.errors && (LoginForm.get('usermail')?.errors)">
+                        Please enter a valid email address
+                      </mat-error>
+                      <mat-error *ngIf="LoginForm.get('usermail')?.invalid && (LoginForm.get('usermail')?.dirty || LoginForm.get('usermail')?.touched) && LoginForm.get('usermail')?.errors">
+                        Email is invalid
+                      </mat-error>
+                </mat-form-field>
+                </div>
+
+                <div class="mt-top-2">
+                    <mat-form-field>
+                    <input matInput type="password" placeholder="Password" formControlName="password" [(ngModel)]="password">    
+                    <mat-error *ngIf="!LoginForm.get('password')?.errors">
+                      Password length must be greater than or equal to 8 and password must contain one or more uppercase , lowercase , numeric and special characters
+                    </mat-error>
+                    <mat-error *ngIf="LoginForm.get('password')?.invalid && (LoginForm.get('password')?.dirty || LoginForm.get('password')?.touched) && LoginForm.get('password')?.errors">
+                      Password must be minimum 8 length
+                    </mat-error>
+                  </mat-form-field>
+                </div>
+
+                <div class="mt-top">
+                    <button [disabled]="!LoginForm.valid" mat-raised-button color="primary" (click)="login()" mat-button>Sign In</button>
+                </div>
+              </div>
+
+              <div class="signup-link">New member?<a href="adminreg"> Signup</a></div>

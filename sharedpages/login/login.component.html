@@ -1,0 +1,88 @@
+
+ <div class="row no-gutters">
+    
+    <div class="col no-gutters">
+        <div class="leftside">
+            <img src="../assets/5741941.jpg"  class="img-fluid" alt="Phone image">
+        </div>
+
+    </div>
+
+    <div class="col no-gutters">
+        <div class="rightside">
+            <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
+            <div class="text-center">
+                <h1 class="text-center mt-5"><b>GREEN CAR WASH <br/>LOGIN</b></h1>
+            <form [formGroup]="loginForm" (ngSubmit)="onSubmit()" novalidate class="d-flex-center">
+              <div class="example-container">
+                
+                <div>
+                  <mat-form-field>
+                    <input matInput placeholder="Email" formControlName="email">
+                    <mat-error *ngIf="!loginForm.get('email')?.errors?.required && (loginForm.get('email')?.errors?.pattern)">
+                      Please enter a valid email address
+                    </mat-error>
+                    <mat-error *ngIf="loginForm.get('email')?.invalid && (loginForm.get('email')?.dirty || loginForm.get('email')?.touched) && loginForm.get('email')?.errors?.required">
+                      Email is required
+                    </mat-error>
+                  </mat-form-field>
+                </div>
+
+                <div class="mt-top-2">
+                  <mat-form-field>
+                    <input matInput type="password" placeholder="Password" formControlName="password">    
+                    <mat-error *ngIf="!loginForm.get('password')?.errors?.required">
+                      Password length must be greater than or equal to 8 and password must contain one or more uppercase , lowercase , numeric and special characters
+                    </mat-error>
+                    <mat-error *ngIf="loginForm.get('password')?.invalid && (loginForm.get('password')?.dirty || loginForm.get('password')?.touched) && loginForm.get('password')?.errors?.required">
+                      Password is required
+                    </mat-error>
+                  </mat-form-field>
+                </div>
+
+                 <div class="mt-top-3">
+                    <mat-form-field>
+                      <input matInput type="role" placeholder="Role" formControlName="role">    
+                      <mat-error *ngIf="!loginForm.get('role')?.errors?.required">
+                        Enter your role
+                      </mat-error>
+                      <!-- <mat-error *ngIf="loginForm.get('role')?.invalid && (loginForm.get('role')?.dirty || loginForm.get('role')?.touched) && loginForm.get('role')?.errors?.required">
+                       Role is required
+                      </mat-error> -->
+                    </mat-form-field>
+                  </div>
+
+                <div class="mt-top">
+                    <button [disabled]="!loginForm.valid" mat-raised-button color="primary" mat-button>Sign In</button>
+                </div>
+              </div>
+
+              <div class="text-center mt-4">
+              <h1>  <p><b>or sign up with:</b></p></h1>
+                <button type="button" class="btn btn-link btn-floating mx-1">
+                  <i class="fab fa-facebook-f"></i>
+                </button>
+            
+                <button type="button" class="btn btn-link btn-floating mx-1">
+                  <i class="fab fa-google"></i>
+                </button>
+            
+                <button type="button" class="btn btn-link btn-floating mx-1">
+                  <i class="fab fa-twitter"></i>
+                </button>
+            
+                <button type="button" class="btn btn-link btn-floating mx-1">
+                  <i class="fab fa-github"></i>
+                </button>
+              </div>
+              
+            </form>
+        </div>
+            
+        </div>
+
+    </div>
+</div>
+
+ </div>
+

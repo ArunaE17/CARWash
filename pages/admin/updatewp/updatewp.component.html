@@ -1,0 +1,31 @@
+<form [formGroup]="updateForm " >
+    <h1>Update WashPack</h1>
+  
+    <div class="row">
+  
+      <label for="name"><span> Id</span> 
+      <input type="text" formControlName="id" [(ngModel)]="updatedetails.id">
+        </label>
+    </div>
+  
+    <div class="row">
+  
+      <label for="name"><span> Add On Name</span> 
+      <input type="text" formControlName="name" [(ngModel)]="updatedetails.name">
+        </label>
+      </div>
+  
+    <div class="row">
+      <label for="name"><span> Enter Cost </span>
+        <input type="text" formControlName="cost" [(ngModel)]="updatedetails.cost">
+        </label>
+    </div>
+    <div class="row">
+      <label for="name"><span> description </span>
+        <input type="text" formControlName="description" [(ngModel)]="updatedetails.description">
+        </label>
+    </div>
+  
+   
+    <button type="submit" (click)="updatewp()" >Update</button>
+  </form>
