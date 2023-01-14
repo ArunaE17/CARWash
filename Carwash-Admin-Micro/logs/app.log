@@ -1,0 +1,11 @@
+2022-10-08 00:28:28,906 INFO com.carwash.CarwashAdminMicro.CarwashAdminMicroApplication [restartedMain] Started CarwashAdminMicroApplication in 7.831 seconds (JVM running for 8.858)
+2022-10-08 00:29:44,470 INFO com.carwash.CarwashAdminMicro.CarwashAdminMicroApplication [restartedMain] Starting CarwashAdminMicroApplication using Java 18 on Aruna with PID 20980 (C:\Users\win10\Desktop\capgemini\UPSKILL\casestudy\Carwash-Admin-Micro\target\classes started by win10 in C:\Users\win10\Desktop\capgemini\UPSKILL\casestudy\Carwash-Admin-Micro)
+2022-10-08 00:29:44,473 DEBUG com.carwash.CarwashAdminMicro.CarwashAdminMicroApplication [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-08 00:29:44,474 INFO com.carwash.CarwashAdminMicro.CarwashAdminMicroApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-10-08 00:29:48,671 DEBUG com.carwash.CarwashAdminMicro.util.JwtRequestFilter [restartedMain] Filter 'jwtRequestFilter' configured for use
+2022-10-08 00:29:51,567 INFO com.carwash.CarwashAdminMicro.CarwashAdminMicroApplication [restartedMain] Started CarwashAdminMicroApplication in 7.82 seconds (JVM running for 8.82)
+2022-10-08 00:54:19,095 INFO com.carwash.CarwashAdminMicro.CarwashAdminMicroApplication [restartedMain] Starting CarwashAdminMicroApplication using Java 18 on Aruna with PID 12532 (C:\Users\win10\Desktop\capgemini\UPSKILL\casestudy\Carwash-Admin-Micro\target\classes started by win10 in C:\Users\win10\Desktop\capgemini\UPSKILL\casestudy\Carwash-Admin-Micro)
+2022-10-08 00:54:19,098 DEBUG com.carwash.CarwashAdminMicro.CarwashAdminMicroApplication [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-08 00:54:19,099 INFO com.carwash.CarwashAdminMicro.CarwashAdminMicroApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-10-08 00:54:23,555 DEBUG com.carwash.CarwashAdminMicro.util.JwtRequestFilter [restartedMain] Filter 'jwtRequestFilter' configured for use
+2022-10-08 00:54:27,372 INFO com.carwash.CarwashAdminMicro.CarwashAdminMicroApplication [restartedMain] Started CarwashAdminMicroApplication in 9.056 seconds (JVM running for 10.163)

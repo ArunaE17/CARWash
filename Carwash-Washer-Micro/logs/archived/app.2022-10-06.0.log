@@ -1,0 +1,32 @@
+2022-10-06 12:21:34,791 INFO com.carwash.CarwashWasherMicro.CarwashWasherMicroApplication [restartedMain] Starting CarwashWasherMicroApplication using Java 18 on Aruna with PID 22192 (C:\Users\win10\Desktop\capgemini\UPSKILL\casestudy\Carwash-Washer-Micro\target\classes started by win10 in C:\Users\win10\Desktop\capgemini\UPSKILL\casestudy\Carwash-Washer-Micro)
+2022-10-06 12:21:34,800 DEBUG com.carwash.CarwashWasherMicro.CarwashWasherMicroApplication [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-06 12:21:34,802 INFO com.carwash.CarwashWasherMicro.CarwashWasherMicroApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-10-06 12:21:41,643 INFO com.carwash.CarwashWasherMicro.CarwashWasherMicroApplication [restartedMain] Started CarwashWasherMicroApplication in 7.651 seconds (JVM running for 8.865)
+2022-10-06 12:38:58,599 INFO com.carwash.CarwashWasherMicro.controller.washerController [http-nio-8083-exec-1] controller accessed
+2022-10-06 13:01:46,307 INFO com.carwash.CarwashWasherMicro.controller.washerController [http-nio-8083-exec-3] controller accessed
+2022-10-06 13:04:38,876 INFO com.carwash.CarwashWasherMicro.controller.washerController [http-nio-8083-exec-5] controller accessed
+2022-10-06 13:27:49,218 INFO com.carwash.CarwashWasherMicro.controller.washerController [http-nio-8083-exec-7] controller accessed
+2022-10-06 13:29:41,723 INFO com.carwash.CarwashWasherMicro.controller.washerController [http-nio-8083-exec-9] controller accessed
+2022-10-06 13:30:26,757 INFO com.carwash.CarwashWasherMicro.controller.washerController [http-nio-8083-exec-1] controller accessed
+2022-10-06 13:31:36,285 INFO com.carwash.CarwashWasherMicro.controller.washerController [http-nio-8083-exec-3] controller accessed
+2022-10-06 13:31:42,675 INFO com.carwash.CarwashWasherMicro.controller.washerController [http-nio-8083-exec-5] controller accessed
+2022-10-06 14:10:37,541 INFO com.carwash.CarwashWasherMicro.controller.washerController [http-nio-8083-exec-7] controller accessed
+2022-10-06 20:08:11,669 INFO com.carwash.CarwashWasherMicro.CarwashWasherMicroApplication [restartedMain] Starting CarwashWasherMicroApplication using Java 18 on Aruna with PID 19204 (C:\Users\win10\Desktop\capgemini\UPSKILL\casestudy\Carwash-Washer-Micro\target\classes started by win10 in C:\Users\win10\Desktop\capgemini\UPSKILL\casestudy\Carwash-Washer-Micro)
+2022-10-06 20:08:11,676 DEBUG com.carwash.CarwashWasherMicro.CarwashWasherMicroApplication [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-06 20:08:11,677 INFO com.carwash.CarwashWasherMicro.CarwashWasherMicroApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-10-06 20:08:22,128 INFO com.carwash.CarwashWasherMicro.CarwashWasherMicroApplication [restartedMain] Started CarwashWasherMicroApplication in 12.412 seconds (JVM running for 13.981)
+2022-10-06 20:08:51,513 ERROR com.netflix.discovery.DiscoveryClient [DiscoveryClient-HeartbeatExecutor-0] DiscoveryClient_CARWASH-WASHER-SERVER/Aruna:carwash-washer-server:8083 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893)
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2022-10-06 20:16:26,117 INFO com.carwash.CarwashWasherMicro.controller.washerController [http-nio-8083-exec-1] controller accessed

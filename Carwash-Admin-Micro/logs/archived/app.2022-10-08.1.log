@@ -1,0 +1,26 @@
+2022-10-08 00:21:38,841 DEBUG com.carwash.CarwashAdminMicro.util.JwtRequestFilter [restartedMain] Filter 'jwtRequestFilter' configured for use
+2022-10-08 00:21:41,818 INFO com.carwash.CarwashAdminMicro.CarwashAdminMicroApplication [restartedMain] Started CarwashAdminMicroApplication in 8.108 seconds (JVM running for 9.104)
+2022-10-08 00:22:27,710 INFO com.carwash.CarwashAdminMicro.CarwashAdminMicroApplication [restartedMain] Starting CarwashAdminMicroApplication using Java 18 on Aruna with PID 13516 (C:\Users\win10\Desktop\capgemini\UPSKILL\casestudy\Carwash-Admin-Micro\target\classes started by win10 in C:\Users\win10\Desktop\capgemini\UPSKILL\casestudy\Carwash-Admin-Micro)
+2022-10-08 00:22:27,714 DEBUG com.carwash.CarwashAdminMicro.CarwashAdminMicroApplication [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-08 00:22:27,716 INFO com.carwash.CarwashAdminMicro.CarwashAdminMicroApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-10-08 00:22:32,072 DEBUG com.carwash.CarwashAdminMicro.util.JwtRequestFilter [restartedMain] Filter 'jwtRequestFilter' configured for use
+2022-10-08 00:22:35,081 INFO com.carwash.CarwashAdminMicro.CarwashAdminMicroApplication [restartedMain] Started CarwashAdminMicroApplication in 8.175 seconds (JVM running for 9.326)
+2022-10-08 00:24:09,303 INFO com.carwash.CarwashAdminMicro.CarwashAdminMicroApplication [restartedMain] Starting CarwashAdminMicroApplication using Java 18 on Aruna with PID 16420 (C:\Users\win10\Desktop\capgemini\UPSKILL\casestudy\Carwash-Admin-Micro\target\classes started by win10 in C:\Users\win10\Desktop\capgemini\UPSKILL\casestudy\Carwash-Admin-Micro)
+2022-10-08 00:24:09,307 DEBUG com.carwash.CarwashAdminMicro.CarwashAdminMicroApplication [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-08 00:24:09,308 INFO com.carwash.CarwashAdminMicro.CarwashAdminMicroApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-10-08 00:24:13,656 DEBUG com.carwash.CarwashAdminMicro.util.JwtRequestFilter [restartedMain] Filter 'jwtRequestFilter' configured for use
+2022-10-08 00:24:16,421 INFO com.carwash.CarwashAdminMicro.CarwashAdminMicroApplication [restartedMain] Started CarwashAdminMicroApplication in 7.903 seconds (JVM running for 9.216)
+2022-10-08 00:25:04,279 INFO com.carwash.CarwashAdminMicro.CarwashAdminMicroApplication [restartedMain] Starting CarwashAdminMicroApplication using Java 18 on Aruna with PID 24496 (C:\Users\win10\Desktop\capgemini\UPSKILL\casestudy\Carwash-Admin-Micro\target\classes started by win10 in C:\Users\win10\Desktop\capgemini\UPSKILL\casestudy\Carwash-Admin-Micro)
+2022-10-08 00:25:04,282 DEBUG com.carwash.CarwashAdminMicro.CarwashAdminMicroApplication [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-08 00:25:04,284 INFO com.carwash.CarwashAdminMicro.CarwashAdminMicroApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-10-08 00:25:08,503 DEBUG com.carwash.CarwashAdminMicro.util.JwtRequestFilter [restartedMain] Filter 'jwtRequestFilter' configured for use
+2022-10-08 00:25:11,926 INFO com.carwash.CarwashAdminMicro.CarwashAdminMicroApplication [restartedMain] Started CarwashAdminMicroApplication in 8.386 seconds (JVM running for 9.351)
+2022-10-08 00:27:05,478 INFO com.carwash.CarwashAdminMicro.CarwashAdminMicroApplication [restartedMain] Starting CarwashAdminMicroApplication using Java 18 on Aruna with PID 8204 (C:\Users\win10\Desktop\capgemini\UPSKILL\casestudy\Carwash-Admin-Micro\target\classes started by win10 in C:\Users\win10\Desktop\capgemini\UPSKILL\casestudy\Carwash-Admin-Micro)
+2022-10-08 00:27:05,481 DEBUG com.carwash.CarwashAdminMicro.CarwashAdminMicroApplication [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-08 00:27:05,482 INFO com.carwash.CarwashAdminMicro.CarwashAdminMicroApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-10-08 00:27:09,655 DEBUG com.carwash.CarwashAdminMicro.util.JwtRequestFilter [restartedMain] Filter 'jwtRequestFilter' configured for use
+2022-10-08 00:27:13,318 INFO com.carwash.CarwashAdminMicro.CarwashAdminMicroApplication [restartedMain] Started CarwashAdminMicroApplication in 8.562 seconds (JVM running for 9.589)
+2022-10-08 00:28:21,821 INFO com.carwash.CarwashAdminMicro.CarwashAdminMicroApplication [restartedMain] Starting CarwashAdminMicroApplication using Java 18 on Aruna with PID 14868 (C:\Users\win10\Desktop\capgemini\UPSKILL\casestudy\Carwash-Admin-Micro\target\classes started by win10 in C:\Users\win10\Desktop\capgemini\UPSKILL\casestudy\Carwash-Admin-Micro)
+2022-10-08 00:28:21,825 DEBUG com.carwash.CarwashAdminMicro.CarwashAdminMicroApplication [restartedMain] Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-10-08 00:28:21,827 INFO com.carwash.CarwashAdminMicro.CarwashAdminMicroApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-10-08 00:28:26,085 DEBUG com.carwash.CarwashAdminMicro.util.JwtRequestFilter [restartedMain] Filter 'jwtRequestFilter' configured for use

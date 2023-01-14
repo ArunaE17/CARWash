@@ -1,0 +1,18 @@
+2022-10-04 20:20:23,606 INFO com.carwash.CarwashWasherMicro.CarwashWasherMicroApplication [restartedMain] Started CarwashWasherMicroApplication in 12.675 seconds (JVM running for 16.031)
+2022-10-04 20:20:36,098 INFO com.carwash.CarwashWasherMicro.controller.washerController [http-nio-8083-exec-2] controller accessed
+2022-10-04 20:22:01,249 INFO com.carwash.CarwashWasherMicro.controller.washerController [http-nio-8083-exec-4] controller accessed
+2022-10-04 20:37:37,846 INFO com.carwash.CarwashWasherMicro.controller.washerController [http-nio-8083-exec-6] controller accessed
+2022-10-04 22:33:22,897 INFO com.carwash.CarwashWasherMicro.controller.washerController [http-nio-8083-exec-8] controller accessed
+2022-10-04 22:33:48,310 INFO com.carwash.CarwashWasherMicro.controller.washerController [http-nio-8083-exec-1] controller accessed
+2022-10-04 22:35:44,089 INFO com.carwash.CarwashWasherMicro.controller.washerController [http-nio-8083-exec-10] controller accessed
+2022-10-04 22:37:17,782 INFO com.carwash.CarwashWasherMicro.controller.washerController [http-nio-8083-exec-3] controller accessed
+2022-10-04 22:38:19,856 INFO com.carwash.CarwashWasherMicro.controller.washerController [http-nio-8083-exec-5] controller accessed
+2022-10-04 22:38:27,442 INFO com.carwash.CarwashWasherMicro.controller.washerController [http-nio-8083-exec-6] controller accessed
+2022-10-04 22:38:39,266 INFO com.carwash.CarwashWasherMicro.controller.washerController [http-nio-8083-exec-7] controller accessed
+2022-10-04 22:40:38,592 INFO com.carwash.CarwashWasherMicro.controller.washerController [http-nio-8083-exec-1] controller accessed
+2022-10-04 22:40:45,719 INFO com.carwash.CarwashWasherMicro.controller.washerController [http-nio-8083-exec-10] controller accessed
+2022-10-04 22:41:04,884 INFO com.carwash.CarwashWasherMicro.controller.washerController [http-nio-8083-exec-3] controller accessed
+2022-10-04 22:41:28,060 INFO com.carwash.CarwashWasherMicro.controller.washerController [http-nio-8083-exec-5] controller accessed
+2022-10-04 22:42:06,226 INFO com.carwash.CarwashWasherMicro.controller.washerController [http-nio-8083-exec-7] controller accessed
+2022-10-04 22:42:20,948 INFO com.carwash.CarwashWasherMicro.controller.washerController [http-nio-8083-exec-1] controller accessed
+2022-10-04 22:44:26,160 INFO com.carwash.CarwashWasherMicro.controller.washerController [http-nio-8083-exec-10] controller accessed
